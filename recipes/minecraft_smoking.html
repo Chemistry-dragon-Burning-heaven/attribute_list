@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>MinecraftSmoking</title>
+</head>
+<style>
+    div {
+        position: fixed;
+        left: 36%;
+        width: 400px;
+    }
+</style>
+
+<body>
+    <div>
+        <h1>Minecraft:Smoking</h1>
+        <h3>配方类型:原版熔炼</h3>
+        <h3>格式：
+            <pre>
+{
+    "type": "minecraft:smoking", #字符串,必须是"minecraft:smoking"
+    "ingredient": {
+      "item/tag": "String" #字符串,Item注册名
+    },
+    "result": "String", #字符串,Item注册名
+    "experience": Number, #数值,熔炼获得经验
+    "cookingtime": Number #数值,熔炼时间
+}
+            </pre>
+        </h3>
+        输入物品类型：<input type="text" name="username"><br>
+        输入物品注册名：<br>
+        <a href="../home.html"><b>返回Home</b></a>
+    </div>
+</body>
+
+</html>
